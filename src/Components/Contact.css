@@ -1,0 +1,63 @@
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f9fafb;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  text-align: center;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+.contact-btn.email {
+  background: #2563eb;
+  color: #fff;
+}
+
+.contact-btn.linkedin {
+  background: #0a66c2;
+  color: #fff;
+}
+
+.contact-btn.github {
+  background: #333;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .contact-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
