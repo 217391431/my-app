@@ -7,6 +7,7 @@ const Home = () => {
   const [projects, setProjects] = useState([]);
 
   // Fetch projects from backend (ASP.NET Core)
+  
   useEffect(() => {
     axios
       .get("https://localhost:5001/api/portfolio/projects")
